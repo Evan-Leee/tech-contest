@@ -6,7 +6,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p>小组成员：<strong>{{page.members | join: "，" }}</strong></p>
-    <img src="/assets/images/{{ page.image }}">
+    <img src="{{site.baseurl}}/assets/images/{{ page.image }}">
   </header>
   <article class="post-content">
     {{ content }}
