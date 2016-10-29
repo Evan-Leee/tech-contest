@@ -36,7 +36,7 @@ Slick Material Design theme for [Jekyll](https://jekyllrb.com/) powered by [Mate
  模板可以修改，可以添加自己想要的field
  
 ## Demo
-[模板连接](https://evan-leee.github.io/tech-competition)
+[模板连接](https://evan-leee.github.io/tech-contest)
 
 ## 本地的启服务的方式
  - 安装好jekyll后 在文件目录下执行 `jekyll serve --baseurl '' `可以在本地`4000`端口查看模板内容
