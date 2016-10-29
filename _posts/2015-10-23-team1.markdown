@@ -15,7 +15,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 作品亮点:
 
-{% highlight ruby %}
+{% highlight markdown %}
 亮点描述：｛描述内容为。。。｝
 {% endhighlight %}
 
