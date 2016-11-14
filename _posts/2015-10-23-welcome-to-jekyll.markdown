@@ -2,6 +2,7 @@
 layout: post
 title:  "作品名"
 date:   2015-10-23
+type: HARDWARE
 members: [成员1,成员2,成员3,成员4]
 categories: jekyll update
 image: destkop-image-sample.jpg

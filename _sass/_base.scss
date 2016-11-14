@@ -18,6 +18,10 @@ body {
   font-weight: 300;
 }
 
+header.mdl-layout__header {
+    background-color: #fff;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -110,4 +114,12 @@ pre {
     display: table;
     clear: both;
   }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }

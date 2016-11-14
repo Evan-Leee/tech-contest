@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "team1作品名"
+type: SOFTWARE
 date:   2015-10-23
 members: [成员1,成员2,成员3,成员4]
 categories: jekyll update

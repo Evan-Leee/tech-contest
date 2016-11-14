@@ -1,0 +1,18 @@
+.item-footer {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px 16px 16px;
+  .star-marker{
+    &::before {
+      content: '';
+      display: inline-block;
+      background: url("../assets/images/star.svg") no-repeat;
+      vertical-align: top;
+      padding-right: 5px;
+      width: 18px;
+      height: 18px;
+    }
+
+  }
+}
