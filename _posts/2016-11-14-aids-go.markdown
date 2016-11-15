@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Aids Go"
+type: IOT
+members: [董莹]
+image: destkop-image-sample.jpg
+description: 根据求助者的位置，系统会通知附近区域内的所有志愿者，志愿者可选择前往救助或拒绝，并且可以联系物业以及求救者的紧急联系人。
+---
+作品描述：
+
+痛点：近来空巢老人的数量越来越多，当遇到突发情况（比如摔倒，家里着火等），很多老人不能自救，身边又没有人能及时的提供帮助，从而酿成了一个个的悲剧。
+
+目标：当紧急情况发生的时候，找到最近的志愿者给予第一时间的救助，从而防止悲剧的发生。
+
+功能：当有紧急情况时，求救者可通过手机或手环（用Amazon IOT Button代替）发送求救信息。根据求助者的位置，系统会通知附近区域内的所有志愿者，志愿者可选择前往救助或拒绝，并且可以联系物业以及求救者的紧急联系人。同时，系统会自动发短信给紧急联系人告知情况。
+
+技术栈：react-native, AWS with Amazon IOT Button
+
+[代码链接][CodeBase]
+
+[CodeBase]: https://github.com/aidsgo/AidsGoApp

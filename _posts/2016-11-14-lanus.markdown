@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Project Lanus"
+type: SOFTWARE
+members: [严嘉阳]
+image: destkop-image-sample.jpg
+description: 一种非接触的用户认证解决方案
+---
+作品描述：
+
+雅努斯（拉丁语：Ianus），是罗马神话中的门神、双面神，被描绘为具有前后两个面孔或四方四个面孔，象征开始。
+
+我们要提供的是一种非接触的用户认证解决方案，当用户需要访问某些具有权限的设施，比如说门禁等时，需要向管理员发送请求，审核通过之后可以获取有限权限的token，同时这个token将进行非对称的加密以保证使用上的安全。
+
+[代码链接][CodeBase]
+
+[CodeBase]: https://git.thoughtworks.net/jyyan/ProjectLanus

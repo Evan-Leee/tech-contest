@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Newbie"
+type: SOFTWARE
+members: [安凯航]
+image: destkop-image-sample.jpg
+description: 基于 Azure Cognitive Service 的人脸/情绪/视觉分析应用
+---
+作品描述：
+
+基于 Azure Cognitive Service 的人脸/情绪/视觉分析应用。
+
+相信每一个进入公司不久的 newbie, 都会碰到不认识的同事/不了解各种公司政策/该拜哪个山头/选谁当 buddy等。
+Newbie 就是以 Newbie 的痛点作为切入点:
+1. 使用照片/摄像头实时取景来调出同事信息。
+2. 使用人脸相似度等信息来匹配 buddy/sponsor。
+3. 通过自主学习公司政策/法规/通知/八卦周刊等, 来识别员工提问并回答问题。
+4. 通过team 合影来自动选择本周group owner/谁请吃饭等有意思的事情。
+
+[代码链接][CodeBase]
+
+[CodeBase]: https://git.thoughtworks.net/newbie/newbie.git

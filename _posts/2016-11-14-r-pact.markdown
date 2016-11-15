@@ -1,0 +1,25 @@
+---
+layout: post
+title: "R-Pact"
+type: SOFTWARE
+members: [周婧]
+image: destkop-image-sample.jpg
+description: 这个工具使得微服务测试中测试与管理一体化，在执行测试的过程中获得API原型，在线即时生成API文档
+---
+作品描述：
+
+idea来源：测试中遇到以下问题：
+1. 在测试过程中很难获得API的详细信息，尤其时间比较久的项目。
+2.API测试与管理分离，造成代码的更新与API的文档不一致。
+3.耗费资源，开发需要从一大堆的测试数据中梳理出API原型。
+
+技术栈选型：Ruby, Raml, Pact
+
+作品实用性、亮点、创新点：使得微服务测试中测试与管理一体化，在执行测试的过程中获得API原型，在线即时生成API文档，
+有效地帮助测试人员，前后端开发人员随时获得详细的API信息。适用于项目中API较多，且有单元测试项目组，大大节约了时间。
+
+技术栈：MQTTCloud，嵌入式，ROR
+
+[代码链接][CodeBase]
+
+[CodeBase]: https://git.thoughtworks.net/groups/tech-contest/r-pact
