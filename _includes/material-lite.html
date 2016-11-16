@@ -1,4 +1,14 @@
 <!-- Material Design Lite CDN -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.{{ site.material_theme }}.min.css">
-<script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(this).scrollTop(0);
+    });
+
+    $(window).scroll( function() {
+        if ( $(this).scrollTop() > 70 )
+            $(".header-logo").addClass("small");
+        else
+            $(".header-logo").removeClass("small");
+    });
+</script>

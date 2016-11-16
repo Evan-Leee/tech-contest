@@ -1,0 +1,44 @@
+.mdl-layout__header-row {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  height: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+  z-index: 1;
+  .header-logo {
+    transition: all 0.4s ease;
+    background: url("../assets/images/header-bg.jpg") repeat-x;
+    width: 100%;
+    height: 230px;
+    .small-logo {
+      display: none;
+    }
+    .large-logo {
+      position: absolute;
+      top: 110px;
+      left: calc(50% - (400px / 2)); //$large-logo-width: 400px
+    }
+    &.small{
+      width:100%;
+      height: 0px;
+      .small-logo {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 6%;
+      }
+    }
+  }
+  .header {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 800px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+}

@@ -1,12 +1,16 @@
 .site-title {
+  display: inline-block;
+  margin: 0;
+  padding-left: 10%;
   color: $site-title-color;
   text-decoration: none;
-  transition: color .3s ease-out;
-  width: 100%;
   text-align: center;
-  margin-left: -24px;
-
+  transition: color .3s ease-out;
+  &.active {
+    color: #2f51ff;
+  }
   &:hover {
-    color: #005caf;
+    color: #2f51ff;
+    box-shadow: none;
   }
 }
