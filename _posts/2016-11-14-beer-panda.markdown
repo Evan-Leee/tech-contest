@@ -3,10 +3,10 @@ layout: post
 title: "BeerPanda"
 type: HARDWARE
 members: [张清波]
-image: destkop-image-sample.jpg
+image: [2_23_Screen Shot 2016-11-02 at 13.03.38.png,2_23_Screen Shot 2016-11-02 at 13.03.32.png,2_23_Screen Shot 2016-11-02 at 13.03.26.png]
 description: 一个简易的物联网出酒系统，该系统利用8266芯片通过MQTT协议来智能控制电磁阀搭配流量计来达到自动计量出酒目的
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 我们通过微信支付平台作为支付载体，设计制作一个简易的物联网出酒系统，该系统利用8266芯片通过MQTT协议来智能控制电磁阀搭配流量计来达到自动计量出酒目的。
 在用户通过支付二维码/移动应用付款成功后，通过MQTT协议向智能芯片发送一个消息，该芯片收到消息后打开电磁阀，

@@ -3,10 +3,10 @@ layout: post
 title: "老调重弹CI灯"
 type: HARDWARE
 members: [高亮,贺思聪,唐成,陈越]
-image: destkop-image-sample.jpg
+image: [1_23_070_03.jpg,1_23_060_01.jpg,1_23_010_02.jpg]
 description: CI灯产品化～纪念物～送客户礼品～思特沃克CD理念～TW品牌
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 基本功用：
 1. 挂了build第一时间让团队知道

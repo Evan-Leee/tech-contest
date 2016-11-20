@@ -3,10 +3,10 @@ layout: post
 title: "R-Pact"
 type: SOFTWARE
 members: [周婧]
-image: destkop-image-sample.jpg
+image: [4_23_Screen Shot 2016-11-03 at 2.49.56 PM.png, 4_23_Screen Shot 2016-11-03 at 2.50.33 PM.png]
 description: 这个工具使得微服务测试中测试与管理一体化，在执行测试的过程中获得API原型，在线即时生成API文档
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 idea来源：测试中遇到以下问题：
 1. 在测试过程中很难获得API的详细信息，尤其时间比较久的项目。
@@ -18,7 +18,7 @@ idea来源：测试中遇到以下问题：
 作品实用性、亮点、创新点：使得微服务测试中测试与管理一体化，在执行测试的过程中获得API原型，在线即时生成API文档，
 有效地帮助测试人员，前后端开发人员随时获得详细的API信息。适用于项目中API较多，且有单元测试项目组，大大节约了时间。
 
-技术栈：MQTTCloud，嵌入式，ROR
+<strong>技术栈：MQTTCloud，嵌入式，ROR</strong>
 
 [代码链接][CodeBase]
 

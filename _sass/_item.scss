@@ -17,6 +17,15 @@
       line-height: 30px;
       color: #363638;
     }
+    .mdl-card__img {
+      text-align: center;
+      line-height: 160px;
+      height: 160px;
+      img {
+        max-height: 160px;
+        max-width: 100%;
+      }  
+    }
     .mdl-card__supporting-text {
       display: -webkit-box;
       box-sizing: border-box;
