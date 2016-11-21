@@ -3,10 +3,10 @@ layout: post
 title: "Project Lanus"
 type: SOFTWARE
 members: [严嘉阳]
-image: destkop-image-sample.jpg
+image: [10_23_WechatIMG1078.jpeg, 10_23_Screen Shot 2016-11-11 at 3.03.34 PM.png, 10_23_WechatIMG1080.jpeg]
 description: 一种非接触的用户认证解决方案
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 雅努斯（拉丁语：Ianus），是罗马神话中的门神、双面神，被描绘为具有前后两个面孔或四方四个面孔，象征开始。
 

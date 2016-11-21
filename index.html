@@ -10,7 +10,9 @@ layout: default
           <div class="mdl-card__title">
             <h2 class="mdl-card__title-text">{{ post.title }}</h2>
           </div>
-          <img src="./assets/images/{{ post.image }}"/>
+          <div class="mdl-card__img">
+            <img src="./assets/images/uploaded/{{ post.image[0] }}"/>
+          </div>
           <div class="mdl-card__supporting-text">
             {{ post.description }}
           </div>

@@ -3,10 +3,10 @@ layout: post
 title: "Face VPN"
 type: SOFTWARE
 members: [安凯航]
-image: destkop-image-sample.jpg
+image: [5_23_face vpn.png]
 description: Face VPN 在一键脚本的基础上, 对信息进行加密, 并用人脸+表情作为验证条件。彻底避免了安全风险的同时, 使用起来比一键脚本更加的方便流畅。
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 我们的 AnyConnect VPN 为了提高安全性, 导致每次连接的时候步骤非常麻烦, 还时常碰到okta mobile 推送失败, 输入 okta 验证码超时等问题。
 公司有人为了解决这个问题, 写了各种各样一键登录脚本, 确实非常方便。

@@ -2,5 +2,46 @@
   background: #fff;
   padding: $spacing-unit/2;
   margin: $spacing-unit/2 0 $spacing-unit/2 0;
-}
 
+  .post-header {
+    margin: $spacing-unit/2 0;
+  }
+  
+  .post-hero {
+    text-align: center;
+    img {
+      max-height: 500px;
+      max-width: 100%;
+      margin-top: $spacing-unit/2;
+    }
+  }
+  
+  .post-content {
+    margin: $spacing-unit/2 0;
+    line-height: $line-height;
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    a {
+      border: 2px solid #333f48;
+      background: #fff;
+      color: #444;
+      display: inline-block;
+      transition-duration: 0.4s;
+      border-radius: 4px;
+      padding: 8px 30px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+      margin: 0 5px;
+    }
+    a:hover {
+      background: #333f48;
+      color: #fff;
+    }
+    a:first {
+      margin-left: 0;
+    }
+  }
+}

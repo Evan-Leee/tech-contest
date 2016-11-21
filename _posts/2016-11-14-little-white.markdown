@@ -3,10 +3,10 @@ layout: post
 title: "小白"
 type: IOT
 members: [尚家明]
-image: destkop-image-sample.jpg
+image: [3_23_xiaobai.jpg]
 description: 小白是你贴身的情绪专家，她能检测你的心率、血压的变化，判断出你当前的情绪，当你愤怒时她会给你友好的提醒
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 现在的人似乎很不容易得到快乐，甚至很容易愤怒、暴躁。
 

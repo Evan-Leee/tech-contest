@@ -3,10 +3,10 @@ layout: post
 title: "Newbie"
 type: SOFTWARE
 members: [安凯航]
-image: destkop-image-sample.jpg
+image: [6_23_Binary-Trading-Newbie.png]
 description: 基于 Azure Cognitive Service 的人脸/情绪/视觉分析应用
 ---
-作品描述：
+<h2>作品描述：</h2>
 
 基于 Azure Cognitive Service 的人脸/情绪/视觉分析应用。
 
