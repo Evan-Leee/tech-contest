@@ -1,14 +1,3 @@
 <!-- Material Design Lite CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $(this).scrollTop(0);
-    });
-
-    $(window).scroll( function() {
-        if ( $(this).scrollTop() > 70 )
-            $(".header-logo").addClass("small");
-        else
-            $(".header-logo").removeClass("small");
-    });
-</script>
+<script src="{{ site.baseurl }}/assets/js/main.js"></script>

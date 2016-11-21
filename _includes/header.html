@@ -4,19 +4,19 @@
         <img class="small-logo" src="{{ site.baseurl }}/assets/images/contest_logo_s.svg">
     </div>
     <div class="header">
-        <a class="site-title active" href="{{ site.baseurl }}/">
+        <a class="site-title {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/" data-type="ALL">
             <span class="mdl-layout-title">ALL</span>
         </a>
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title {% if page.url == '/iot.html' %}active{% endif %}" href="{{ site.baseurl }}/iot.html" data-type="IOT">
             <span class="mdl-layout-title">IOT</span>
         </a>
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title {% if page.url == '/software.html' %}active{% endif %}" href="{{ site.baseurl }}/software.html" data-type="SOFTWARE">
             <span class="mdl-layout-title">SOFTWARE</span>
         </a>
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title {% if page.url == '/hardware.html' %}active{% endif %}" href="{{ site.baseurl }}/hardware.html" data-type="HARDWARE">
             <span class="mdl-layout-title">HARDWARE</span>
         </a>
-        <a class="site-title" href="{{ site.baseurl }}/">
+        <a class="site-title {% if page.url == '/shadow.html' %}active{% endif %}" href="{{ site.baseurl }}/shadow.html" data-type="SHADOW">
             <span class="mdl-layout-title">SHADOW</span>
         </a>
     </div>

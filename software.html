@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="mdl-grid">
+    {% for post in site.posts %}
+        {% if post.type == "SOFTWARE" %}
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone post-block" data-type="{{post.type}}">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="post-card mdl-shadow--2dp">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+                        </div>
+                        <div class="mdl-card__img">
+                            <img src="./assets/images/uploaded/{{ post.image[0] }}"/>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            {{ post.description }}
+                        </div>
+                        <div class="item-footer">
+                            <span class="float-left">{{post.type}}</span>
+                            <span class="star-marker float-right"><i class="fa fa-commenting-o"></i> 1</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
